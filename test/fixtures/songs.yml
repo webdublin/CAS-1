@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  singer: MyString
+  song: MyString
+  url: MyString
+
+two:
+  country: MyString
+  singer: MyString
+  song: MyString
+  url: MyString
