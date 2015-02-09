@@ -41,3 +41,9 @@ gem 'spring',        group: :development
 # Use HTTParty to consume web-services
 gem 'httparty'
 
+#use omniauth for twitter
+gem 'omniauth-twitter'
+
+#twitter gem
+gem 'twitter'
+

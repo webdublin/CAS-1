@@ -3,6 +3,11 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  match "/auth/:provider/callback" => "sessions#create", via: [:get]
+  match "/signout" => "sessions#destroy", :as => :signout, via: [:get]
+
+  # match "/tweet" => "welcome#tweet", via: [:get]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

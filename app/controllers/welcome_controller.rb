@@ -10,4 +10,7 @@ class WelcomeController < ApplicationController
       @songs << @new_song       
     end
   end
+
+  
+
 end
