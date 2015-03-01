@@ -47,3 +47,7 @@ gem 'omniauth-twitter'
 #twitter gem
 gem 'twitter'
 
+gem 'aws-sdk', '~>2.0'
+gem 'tzinfo-data'
+
+gem 'minitest'
